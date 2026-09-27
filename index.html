@@ -41,6 +41,9 @@ html{scrollbar-gutter:stable}html.locked{overflow:hidden}.gate{background:#e5d8c
 /* Fibra ligera, relieve estampado y sombras de objetos sobre el papel. */
 .sheet::before{content:'';position:absolute;inset:0;z-index:0;background:url('assets/paper-grain.svg') repeat;opacity:.22;mix-blend-mode:multiply;pointer-events:none}.sheet.intro::before{border-radius:inherit}.sheet .ornament{position:relative;display:inline-block;font-size:41px;letter-spacing:.035em;color:#b18b57;background:linear-gradient(150deg,#82633d 5%,#d6b779 33%,#fff2c9 48%,#b58a4b 66%,#725334 98%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 1px 0 #fff9e6) drop-shadow(0 2px 2px #775a3a63)}
 .edge-floral{filter:drop-shadow(0 10px 10px #44332634) drop-shadow(0 2px 2px #5142322a)}.edge-candle{filter:drop-shadow(0 9px 8px #49362845) drop-shadow(0 0 5px #e9be7866)}.lantern{filter:drop-shadow(0 8px 8px #28181085) drop-shadow(0 1px 3px #dcb98855)}.salon.lit .lantern{filter:drop-shadow(0 8px 8px #28181085) drop-shadow(0 0 17px #ffe1a6)}
+/* El interior ocupa toda la pantalla; la cerradura conserva su marco original. */
+.invitation{width:100%;max-width:none;margin:0;box-shadow:none}
+
 </style>
 <noscript><style>.gate{display:none}body.locked,html.locked{overflow:auto}</style></noscript>
 </head>
